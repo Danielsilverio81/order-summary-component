@@ -1,10 +1,13 @@
 * {
+    /*resetting padding and margin*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.6rem;
 }
+/*starting styling*/
+/*setting the main REM*/
 html {font-size: 62.5%;}
 
 body {
@@ -12,6 +15,7 @@ body {
     width: 100%;
 }
 main {
+    /*placing background image and moving elements*/
     width: 100%;
     background-image:url(../assets/images/pattern-background-desktop.svg) ;
     background-repeat: no-repeat;
@@ -20,22 +24,27 @@ main {
     justify-content: center;
 }
 .container-card {
+    /*card container-stylization*/
     margin: 102px auto;
     background: #FFFF;
-    width: 450px;
-    height: 697px;
+    width: 100%;
+    max-width: 450px;
+    max-height: 697px;
     border-radius: 20px;
 }
 .image-first {
+    /*image stylization*/
     width: 100%;
     max-width: 450px;
+    height: auto;
     max-height: 220px;
     border-radius: 20px 20px 0px 0px;
 }
-section {
+section {/*adjusting the text to the internal spacing of the section*/
     padding: 20px 48px;
 }
 section h1 {
+    /*title and text styling*/
     color: #1F2E55;
     text-align: center;
     font-size: 2.8rem;
@@ -43,6 +52,7 @@ section h1 {
     line-height: 3.7rem;
 }
 section p {
+    width: 100%;
     color: #717FA6;
     text-align: center;
     font-weight: 500;
@@ -53,6 +63,7 @@ strong {
     font-weight: 900;
 }
 .payment-method {
+    /*payment method information stylization*/
     margin:20px 48px;
     background-color: #F7F9FF;
     padding: 24px 24px;
@@ -73,10 +84,11 @@ strong {
     line-height: 2.1rem;
 }
 .info p {
+    width: 100%;
     color: #717FA6;
     font-weight: 500;
 }
-.btn {
+.btn {/*stylization buttons*/
     text-align: center;
 }
 .btn a {
@@ -93,7 +105,7 @@ button {
     border: none;
     border-radius: 11px;
 }
-button:hover {
+button:hover {/*hover activated mode*/
     background-color: #766CF1;
     cursor: pointer;
 }
@@ -104,4 +116,14 @@ button:hover {
 .btn a:hover {
     color: #1F2E55;
     cursor: pointer;
+}
+
+/*media queries*/
+
+@media (max-width:376px) {
+     .container-card {width: 100%; max-width: 327px; height: 567px;}
+     section {padding: 19px 15px;}
+     .payment-method {margin:10px 24px;}
+     .info {margin: 5px;}
+     button {margin: 15px; padding: 15px 64px;}
 }
