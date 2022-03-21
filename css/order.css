@@ -123,7 +123,7 @@ button:hover {/*hover activated mode*/
 @media (max-width:376px) {
      .container-card {width: 100%; max-width: 327px; height: 567px;}
      section {padding: 19px 15px;}
-     .payment-method {margin:10px 24px;}
+     .payment-method {margin:7px 24px;}
      .info {margin: 5px;}
-     button {margin: 15px; padding: 15px 64px;}
+     button {margin: 6px; padding: 15px 64px;}
 }
