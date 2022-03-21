@@ -29,14 +29,13 @@ main {
     background: #FFFF;
     width: 100%;
     max-width: 450px;
-    max-height: 697px;
+    height: 697px;
     border-radius: 20px;
 }
 .image-first {
     /*image stylization*/
     width: 100%;
     max-width: 450px;
-    height: auto;
     max-height: 220px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -52,7 +51,6 @@ section h1 {
     line-height: 3.7rem;
 }
 section p {
-    width: 100%;
     color: #717FA6;
     text-align: center;
     font-weight: 500;
