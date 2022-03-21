@@ -74,6 +74,7 @@ strong {
     border-radius: 10px;
 }
 .payment-method a {
+    margin-top: 5px;
     font-weight: 700;
     font-size: 1.4rem;
     color: #382AE1;
