@@ -64,7 +64,7 @@ strong {
 }
 .payment-method {
     /*payment method information stylization*/
-    margin:5px 48px;
+    margin:4px 48px;
     background-color: #F7F9FF;
     padding: 24px 24px;
     text-align: center;
@@ -98,7 +98,7 @@ strong {
     font-weight: 900;
 }
 button {
-    margin: 10px 48px;
+    margin: 16px 48px;
     color: #FFFFFF;
     padding: 15px 102px;
     background: #382AE1;
