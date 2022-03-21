@@ -44,6 +44,7 @@ section {/*adjusting the text to the internal spacing of the section*/
 }
 section h1 {
     /*title and text styling*/
+    margin-top: 20px;
     color: #1F2E55;
     text-align: center;
     font-size: 2.8rem;
@@ -51,6 +52,7 @@ section h1 {
     line-height: 3.7rem;
 }
 section p {
+    margin-top: 17px;
     color: #717FA6;
     text-align: center;
     font-weight: 500;
@@ -62,7 +64,7 @@ strong {
 }
 .payment-method {
     /*payment method information stylization*/
-    margin:20px 48px;
+    margin:10px 48px;
     background-color: #F7F9FF;
     padding: 24px 24px;
     text-align: center;
@@ -97,7 +99,7 @@ strong {
 }
 button {
     margin: 22px 48px;
-    color: white;
+    color: #FFFFFF;
     padding: 15px 102px;
     background: #382AE1;
     border: none;
