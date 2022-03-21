@@ -40,7 +40,7 @@ main {
     border-radius: 20px 20px 0px 0px;
 }
 section {/*adjusting the text to the internal spacing of the section*/
-    padding: 20px 48px;
+    padding: 19px 48px;
 }
 section h1 {
     /*title and text styling*/
@@ -64,7 +64,7 @@ strong {
 }
 .payment-method {
     /*payment method information stylization*/
-    margin:3px 48px;
+    margin:0 48px;
     background-color: #F7F9FF;
     padding: 24px 24px;
     text-align: center;
@@ -74,7 +74,6 @@ strong {
     border-radius: 10px;
 }
 .payment-method a {
-    margin-top: 2px;
     font-weight: 700;
     font-size: 1.4rem;
     color: #382AE1;
@@ -89,7 +88,7 @@ strong {
     color: #717FA6;
     font-weight: 500;
 }
-.btn {margin-top:25px;}
+.btn {margin-top:20px;}
 .btn a {
     margin-left: 176px;
     color: #717FA6;
