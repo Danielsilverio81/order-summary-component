@@ -88,9 +88,13 @@ strong {
     color: #717FA6;
     font-weight: 500;
 }
-.btn {margin-top:14px;}
+.btn {
+    margin-top:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .btn a {
-    margin-left: 176px;
     color: #717FA6;
     text-decoration: none;
     font-weight: 900;
@@ -122,7 +126,8 @@ button:hover {/*hover activated mode*/
 @media (max-width:376px) {
      .container-card {width: 100%; max-width: 327px; height: 567px;}
      section {padding: 19px 15px;}
-     .payment-method {margin:7px 24px;}
+     section h1 {margin-top: 15px;}
+     .payment-method {margin:5px 24px;}
      .info {margin: 5px;}
-     button {margin: 6px; padding: 15px 64px;}
+     button {margin: 2px 20px; padding: 15px 64px;}
 }
